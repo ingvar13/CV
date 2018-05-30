@@ -12,6 +12,10 @@
             width: 1024px;
             margin: 0px auto;
         }
+        @font-face{
+            font-family: Ibmplexsansmedium;
+            src: url(fonts/Ibmplexsansmedium.ttf);
+        }
         header {
             background: #333a42;
             color: #ffffff;
@@ -19,7 +23,9 @@
         }
         h1{
             padding: 39px;
-            font-size: 24px;                        
+            font-size: 24px;
+            font-family: Ibmplexsansmedium;
+        }                        
         }
         header nav ul {}
 
@@ -27,6 +33,8 @@
             display: inline-block;
             font-size: 18px;
             padding: 39px;
+            font-family: Ibmplexsansmedium;
+        }
         }
 
         header nav ul li a {
@@ -36,6 +44,20 @@
 
         #about {
 
+        }
+        section{
+            background: #333a42;
+            color: #ffffff;
+            height: 290px;
+        }
+        section p{
+            font-size: 24px;
+            font-family: IBMPlexSans-Medium;
+        }
+        img{
+            border-radius: 100px;
+            width: 208px;
+            height: 208px;
         }
     </style>
 </head>
@@ -68,25 +90,17 @@
             </div>
             <!-- /.row -->
         </div>
-
-
     </header>
     <section id="about">
         <div class="container">
-            Fugiat proident ad Lorem id elit. Anim enim id officia reprehenderit id esse. Voluptate laboris minim exercitation anim.
-            Ea amet do laborum voluptate ipsum fugiat velit eu sint. Ea pariatur pariatur in eu ut exercitation cupidatat
-            irure reprehenderit excepteur nulla ex adipisicing. Duis sunt deserunt ut mollit aute amet anim consectetur.
-            Aliqua excepteur voluptate laborum ex. Officia cillum nulla non proident duis labore voluptate do voluptate laboris
-            deserunt. Ea pariatur proident qui qui consequat ullamco laborum amet nisi reprehenderit. Nostrud ipsum nisi
-            esse consequat est nisi elit proident Lorem anim sint. Id magna ut id do ex sit cupidatat id nisi excepteur irure.
-            Dolor in culpa est aute deserunt exercitation velit labore fugiat est ad. Sunt adipisicing id nostrud officia
-            mollit laborum amet excepteur incididunt mollit consequat tempor velit consequat. Et dolor fugiat consectetur
-            amet ea irure. Tempor cillum ut excepteur adipisicing sunt deserunt tempor sint laborum in enim reprehenderit.
-            Labore anim laborum pariatur cupidatat consectetur quis mollit culpa ullamco consectetur mollit. Dolore quis
-            sunt ea minim eu non et esse sunt irure dolore pariatur reprehenderit sunt. Minim nisi nostrud et magna anim
-            ullamco eiusmod elit. Id do deserunt aliqua voluptate eiusmod. Ea excepteur id veniam sint est. Nisi in ullamco
-            tempor ut eu Lorem commodo eu amet quis anim exercitation anim proident. Dolore tempor non exercitation culpa
-            est velit sit enim adipisicing velit ad. Mollit ullamco sunt nulla ex.
+            <div class="row">
+                <div class="col-3">
+                    <img src="images/EfmtGVooyZg.jpg" alt="">
+                </div>
+                    <div class="col-8 offset-1" >
+                    <p>Доброго времени суток, меня зовут Александр. Занимаюсь разработкой сайтов с нуля, под ключ. Специалист по CMS WordPress, OpenCart, Elgg. Выполняю верстку и программирование сайтов. Делаю верстку на Bootstrap, таким образом Ваш сайт будет отлично выглядеть на всех устройствах. </p>
+                </div>
+            </div>
         </div>
     </section>
     <!-- /#about -->
