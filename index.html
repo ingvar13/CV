@@ -7,71 +7,93 @@
     <title>Document</title>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/bootstrap-grid.min.css">
+    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans:400,500,700&amp;subset=cyrillic" rel="stylesheet">
     <style>
-        body{
-            width: 1024px;
-            margin: 0px auto;
-            font-family: IBMPlexSans-Medium;
-        }
-        @font-face{
-            font-family: Ibmplexsansmedium;
-            src: url(fonts/Ibmplexsansmedium.ttf);
-        }
-        header {
-            background: #333a42;
-            color: #ffffff;
-            height: 187px;
-        }
-        h1{
-            font-size: 24px;
-            font-family: Ibmplexsansmedium;
-            padding-top: 39px;
-            margin-left: 15px;
-        }
-        li{
-            margin-right: 23px;
-        }                     
-        }
-        header nav ul {}
-
-        header nav ul li {
-            display: inline-block;
+        body {
+            background-color: #ffffff;
+            color: #000000;
             font-size: 18px;
-            font-family: Ibmplexsansmedium;
-            padding-top: 46px;
-
-        }
+            line-height: 24px;
+            font-family: 'IBM Plex Sans', sans-serif;
         }
 
-        header nav ul li a {
-            /* text-decoration: inherit;
-            color: inherit; */
-
+        h1, h2 {
+            font-size: 24px;
+            line-height: 32px;
         }
+        
+        /* Разделы сайта */
+        header {
+            background-color: #333a42;
+            color: #ffffff;
+            padding-top: 39px;
+            
+        }
+        header nav ul {
+            padding-top: 7px;
+            padding-bottom:2px;
+        }
+         header nav ul li {
+             line-height: 23px;
+            margin-right: 34px;
+            display: inline-block;
+        }
+
+         header nav ul li a {
+             display: block;
+         }
 
         #about {
-
+            padding-top: 121px;
+            padding-bottom: 80px;
+            background-color: #333a42;
+            color: #ffffff;
         }
-        section{
+        #about figure img {
+            height: 208px;
+            width: 208px;
+            border-radius: 50%;
+        }
+
+         #about p {
+            font-size: 24px;
+            line-height: 32px;
+            padding-top: 8px;
+            padding-bottom: 8px;
+         }
+
+
+
+        /* header nav ul li a {
+           text-decoration: inherit;
+            color: inherit; 
+
+        } */
+
+        /* section {
             background: #333a42;
             color: #ffffff;
             height: 290px;
         }
-        section p{
+
+        section p {
             font-size: 24px;
             font-family: IBMPlexSans-Medium;
         }
-        .Oval{
+
+        .оval {
             border-radius: 100px;
             width: 208px;
             height: 208px;
             bottom: 80px;
         }
-        #project{
+
+        #project {
             background: #f1ece9;
             height: 447px;
         }
-        figure{ 
+
+        figure {
             width: 620px;
             height: 288px;
             display: block;
@@ -79,13 +101,14 @@
             margin-top: 49px;
             font-family: Ibmplexsansmedium;
         }
-        h4{
+
+        h4 {
             font-size: 24px;
             font-family: Ibmplexsansmedium;
             color: #000;
             margin-top: 49px;
             margin-left: 31px;
-        }
+        } */
     </style>
 </head>
 
@@ -122,34 +145,41 @@
         <div class="container">
             <div class="row">
                 <div class="col-3">
-                    <img class="Oval"src="images/EfmtGVooyZg.jpg" alt="">
+                    <figure>
+                        <img src="img/about/photo.jpg" alt="photo.jpg">
+                    </figure>
                 </div>
-                    <div class="col-8 offset-1" >
-                    <p>Доброго времени суток, меня зовут Александр. Занимаюсь разработкой сайтов с нуля, под ключ. Специалист по CMS WordPress, OpenCart, Elgg. Выполняю верстку и программирование сайтов. Делаю верстку на Bootstrap, таким образом Ваш сайт будет отлично выглядеть на всех устройствах. </p>
+                <div class="col-8 offset-1">
+                    <p>Доброго времени суток, меня зовут Александр. Занимаюсь разработкой сайтов с нуля, под ключ. Специалист
+                        по CMS WordPress, OpenCart, Elgg. Выполняю верстку и программирование сайтов. Делаю верстку на Bootstrap,
+                        таким образом Ваш сайт будет отлично выглядеть на всех устройствах. </p>
                 </div>
             </div>
         </div>
     </section>
     <!-- /#about -->
     <section id="project">
-            <div class="container">
-                <div class="row">
-                    <div class="col-3">
-                         <h4>Проэкты</h4>                 
-                    </div>
-                        <div class="col-8 offset-1" >
-                                    <figure>
-                                        <p><img src="images/html5.jpg" alt="html5"></p>
-                                        <figcaption>
-                                            Сайт &laquo;светлый день&raquo;<br>
-                                            2017 · Программирова · верстка
-                                        </figcaption>
-                                    </figure>
-                        </div>
-                    </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-3">
+                    <h4>Проэкты</h4>
+                </div>
+                <div class="col-8 offset-1">
+                    <figure>
+                        <p>
+                            <img src="images/html5.jpg" alt="html5">
+                        </p>
+                        <figcaption>
+                            Сайт &laquo;светлый день&raquo;
+                            <br> 2017 · Программирова · верстка
+                        </figcaption>
+                    </figure>
                 </div>
             </div>
-        </section>
-        <!-- /#project -->
-    </body>
+        </div>
+        </div>
+    </section>
+    <!-- /#project -->
+</body>
+
 </html>
