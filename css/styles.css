@@ -1,0 +1,79 @@
+body {
+    background-color: #ffffff;
+    color: #000000;
+                    font-size: 18px;
+                    line-height: 24px;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+h1,
+h2 {
+    font-size: 24px;
+    line-height: 32px;
+}
+
+/* Разделы сайта */
+
+header {
+    background-color: #333a42;
+    color: #ffffff;
+    padding-top: 39px;
+}
+
+header nav ul {
+    padding-top: 7px;
+    padding-bottom: 2px;
+}
+
+header nav ul li {
+    line-height: 23px;
+    margin-right: 34px;
+    display: inline-block;
+}
+
+header nav ul li a {
+    display: block;
+}
+
+#about {
+    padding-top: 121px;
+    padding-bottom: 80px;
+    background-color: #333a42;
+    color: #ffffff;
+}
+
+#about figure img {
+    height: 208px;
+    width: 208px;
+    border-radius: 50%;
+}
+
+#about p {
+    font-size: 24px;
+    line-height: 32px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+#projects .wrapper {
+    padding-top: 49px;
+    padding-bottom: 42px;
+    border-bottom: 1px solid #a6a5a1;
+}
+
+#projects figure img {
+    width: 100%;
+}
+
+#projects figure figcaption {
+    line-height: 23px;
+}
+
+#projects figure figcaption h3 {
+    font-size: 24px;
+    line-height: 32px;
+}
+
+#projects figure figcaption .counter {
+    text-align: right;
+}

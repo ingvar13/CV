@@ -8,108 +8,7 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/bootstrap-grid.min.css">
     <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans:400,500,700&amp;subset=cyrillic" rel="stylesheet">
-    <style>
-        body {
-            background-color: #ffffff;
-            color: #000000;
-            font-size: 18px;
-            line-height: 24px;
-            font-family: 'IBM Plex Sans', sans-serif;
-        }
-
-        h1, h2 {
-            font-size: 24px;
-            line-height: 32px;
-        }
-        
-        /* Разделы сайта */
-        header {
-            background-color: #333a42;
-            color: #ffffff;
-            padding-top: 39px;
-            
-        }
-        header nav ul {
-            padding-top: 7px;
-            padding-bottom:2px;
-        }
-         header nav ul li {
-             line-height: 23px;
-            margin-right: 34px;
-            display: inline-block;
-        }
-
-         header nav ul li a {
-             display: block;
-         }
-
-        #about {
-            padding-top: 121px;
-            padding-bottom: 80px;
-            background-color: #333a42;
-            color: #ffffff;
-        }
-        #about figure img {
-            height: 208px;
-            width: 208px;
-            border-radius: 50%;
-        }
-
-         #about p {
-            font-size: 24px;
-            line-height: 32px;
-            padding-top: 8px;
-            padding-bottom: 8px;
-         }
-
-
-
-        /* header nav ul li a {
-           text-decoration: inherit;
-            color: inherit; 
-
-        } */
-
-        /* section {
-            background: #333a42;
-            color: #ffffff;
-            height: 290px;
-        }
-
-        section p {
-            font-size: 24px;
-            font-family: IBMPlexSans-Medium;
-        }
-
-        .оval {
-            border-radius: 100px;
-            width: 208px;
-            height: 208px;
-            bottom: 80px;
-        }
-
-        #project {
-            background: #f1ece9;
-            height: 447px;
-        }
-
-        figure {
-            width: 620px;
-            height: 288px;
-            display: block;
-            color: #000;
-            margin-top: 49px;
-            font-family: Ibmplexsansmedium;
-        }
-
-        h4 {
-            font-size: 24px;
-            font-family: Ibmplexsansmedium;
-            color: #000;
-            margin-top: 49px;
-            margin-left: 31px;
-        } */
-    </style>
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
@@ -150,7 +49,7 @@
                     </figure>
                 </div>
                 <div class="col-8 offset-1">
-                    <p>Доброго времени суток, меня зовут Александр. Занимаюсь разработкой сайтов с нуля, под ключ. Специалист
+                    <p>Доброго времени суток, меня зовут Nigvar Night. Занимаюсь разработкой сайтов с нуля, под ключ. Специалист
                         по CMS WordPress, OpenCart, Elgg. Выполняю верстку и программирование сайтов. Делаю верстку на Bootstrap,
                         таким образом Ваш сайт будет отлично выглядеть на всех устройствах. </p>
                 </div>
@@ -158,26 +57,35 @@
         </div>
     </section>
     <!-- /#about -->
-    <section id="project">
+    <section id="projects">
         <div class="container">
-            <div class="row">
-                <div class="col-3">
-                    <h4>Проэкты</h4>
+            <div class="wrapper">
+                <div class="row">
+                    <div class="col-3">
+                        <h2>Проэкты</h2>
+                    </div>
+                    <div class="col-8 offset-1">
+                        <figure>
+                            <img src="img/html5.jpg" alt="html5">
+                            <figcaption>
+                                <div class="row">
+                                    <div class="col-10">
+                                        <h3>Сайт «Светлый день»</h3>
+                                    </div>
+                                    <div class="col-2">
+                                        <div class="counter">1/10</div>
+                                    </div>
+                                </div>
+                                2017 · Программирова · Верстка
+                            </figcaption>
+                        </figure>
+                    </div>
                 </div>
-                <div class="col-8 offset-1">
-                    <figure>
-                        <p>
-                            <img src="images/html5.jpg" alt="html5">
-                        </p>
-                        <figcaption>
-                            Сайт &laquo;светлый день&raquo;
-                            <br> 2017 · Программирова · верстка
-                        </figcaption>
-                    </figure>
-                </div>
+                <!-- /.row -->
             </div>
+            <!-- /.wrapper -->
         </div>
-        </div>
+        <!-- /.container -->
     </section>
     <!-- /#project -->
 </body>
