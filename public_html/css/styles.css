@@ -98,3 +98,32 @@ header nav ul li a {
     width: 144px;
     border-radius: 50%;
 }
+
+#contacts {
+    padding-top: 37px;
+    
+}
+
+#contacts .contacts {
+    padding-bottom: 160px;
+}
+
+#contacts .contacts h2 {
+    margin-bottom: 32px;
+}
+
+#contacts .contacts p {
+    font-size: 24px;
+    line-height: 32px;
+    margin-bottom: 32px;
+}
+#contacts .contacts .mailto {
+    color: #d7443e;
+}
+
+#contacts .contacts .social-links {
+    /* Сейчас текст, потом заменим на картинки */
+    line-height: 32px;
+    /* Увеличили отступ от послденего обзаца до 57px */
+    padding-top: 25px;
+}
