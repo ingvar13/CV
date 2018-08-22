@@ -130,8 +130,9 @@
                 <div class="col-6">
                     <div class="contacts">
                         <h2>Контакты</h2>
-                        <p>Я сейчас нахожуся в в Тайланде. У меня сейчас 22:04. Здесь все кто  по кайфу, ингуши, кабардинцы..</p>
-                        <p>Быстрее всего отвечу <a class="mailto" href="mailto:azrail13@bk.ru">по почте</a>.</p>
+                        <p>Я сейчас нахожуся в в Тайланде. У меня сейчас 22:04. Здесь все кто по кайфу, ингуши, кабардинцы..</p>
+                        <p>Быстрее всего отвечу
+                            <a class="mailto" href="mailto:azrail13@bk.ru">по почте</a>.</p>
                         <div class="social-links">
                             social links
                         </div>
@@ -143,6 +144,26 @@
                 <div class="col-6">
                     <div class="feedback">
                         <h2>Обратная связь</h2>
+                        <form action="" id="form">
+                            <div class="row">
+                                <div class="col-6">
+                                    <label for="name">Имя</label>
+                                    <input id="name" name="name" required>
+                                </div>
+                                <div class="col-6">
+                                    <label for="email">Email</label>
+                                    <input type="email" name="email" id="email" required>
+                                </div>
+                            </div>
+                            <!-- /.row -->
+                            <div class="textarea">
+                                <label for="message">Сообщение</label>
+                                <textarea name="message" id="message" rows="5" required></textarea>
+                            </div>
+                            <!-- /.textarea -->
+                            <input type="submit" value="Отправить">
+                            <!-- <button type="submit">Отправить</button> -->
+                        </form>
                     </div>
                     <!-- /.feedback -->
                 </div>
@@ -154,4 +175,5 @@
     </section>
     <!-- /#contacts -->
 </body>
+
 </html>

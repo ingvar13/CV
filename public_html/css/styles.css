@@ -101,11 +101,7 @@ header nav ul li a {
 
 #contacts {
     padding-top: 37px;
-    
-}
-
-#contacts .contacts {
-    padding-bottom: 160px;
+    padding-bottom: 96px;
 }
 
 #contacts .contacts h2 {
@@ -117,6 +113,7 @@ header nav ul li a {
     line-height: 32px;
     margin-bottom: 32px;
 }
+
 #contacts .contacts .mailto {
     color: #d7443e;
 }
@@ -126,4 +123,48 @@ header nav ul li a {
     line-height: 32px;
     /* Увеличили отступ от послденего обзаца до 57px */
     padding-top: 25px;
+}
+
+#contacts .feedback h2 {
+    margin-bottom: 22px;
+}
+
+#contacts .feedback form label,
+#contacts .feedback form input,
+#contacts .feedback form textarea {
+    display: block;
+    line-height: 32px;
+    padding: 0;
+    font-size: 18px;
+}
+
+#contacts .feedback form label,
+#contacts .feedback form input:not([type="submit"]),
+#contacts .feedback form textarea {
+    width: 100%;
+}
+
+#contacts .feedback form textarea {
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+#contacts .feedback form input,
+#contacts .feedback form textarea {
+    border: 1px solid #333a42;
+}
+
+#contacts .feedback form label {
+    margin-bottom: 3px;
+}
+
+#contacts .feedback form input[type="submit"] {
+    padding-right: 25px;
+    padding-left: 25px;
+    background-color: #333a42;
+    color: #ffffff;
+}
+
+#contacts .feedback form .textarea {
+    padding-top: 13px;
+    padding-bottom: 34px;
 }
